@@ -1,0 +1,29 @@
+# Indica que este es el archivo raíz de configuración
+# y que no se deben buscar archivos .editorconfig en directorios superiores
+root = true
+
+# Aplica estas reglas a todos los archivos
+[*]
+
+# Define el tipo de salto de línea como LF (Unix-style)
+# Ideal para sistemas Unix/Linux/macOS y recomendado para repos en Git
+end_of_line = lf
+
+# Establece la codificación de caracteres como UTF-8
+# Buena práctica para compatibilidad y soporte de caracteres internacionales
+charset = utf-8
+
+# Tamaño de indentación visual equivalente a 4 espacios
+# Aunque uses tabs, esto define cómo se ven
+indent_size = 4
+
+# Usa tabulaciones reales para la indentación en lugar de espacios
+indent_style = tab
+
+# Elimina espacios en blanco al final de cada línea al guardar
+# Mantiene el código más limpio y previene errores en algunos lenguajes
+trim_trailing_whitespace = true
+
+# Asegura que todos los archivos terminen con una línea en blanco
+# Es una convención común y mejora compatibilidad entre sistemas
+insert_final_newline = true
